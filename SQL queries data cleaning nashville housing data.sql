@@ -3,7 +3,7 @@
 
 Select * from PortfolioProject1..Nashvillehousing
 
--- change sale data parameters
+-- change sale date parameters
 
 Select SaleDateConverted, CONVERT(Date,SaleDate) from PortfolioProject1..Nashvillehousing
 
